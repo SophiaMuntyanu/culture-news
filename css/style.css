@@ -1,0 +1,317 @@
+body{
+    margin: 0 auto;
+    width: 1440;
+}
+header{
+    width: 1440px; 
+    padding-top: 60px;
+}
+h1{
+    text-align: center;
+    height: 47px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin: 0;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin: 46px 134px 47px 135px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    width: 76px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.main-menu ul li a:hover{
+    color: #FF7931;
+}
+.promo-img{
+    width: 1440px;
+    height: 464px;
+    background: url(../img/MaskGroup.jpg) no-repeat;
+    border: 1px solid transparent;
+}
+.group{
+    display: block;
+    margin-left: 693px;
+    margin-top: 45px;
+}
+.group img:hover{
+    opacity: 0.8;
+}
+.promo-title{
+    margin: 0;
+    margin-top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text{
+    margin-top: 139px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1440px;
+    padding: 44px 137px 51px 135px;
+}
+.features-item{
+   width: 370px;
+}
+.features-title{
+    width: 1440px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+}
+h3 .features-item-title{
+    text-decoration: none;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    color: #000000;
+}
+h3 .features-item-title:hover{
+    color: #FF7931;
+}
+.features-item p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;/*!*/
+}
+.offers{
+    width: 1440px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F7F7F7;
+    background-image: url("../img/Ellipse%201.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.offers h2{
+    margin: 0;
+    margin-top: 33px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.offers h3{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+.offers p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+.offers p::after{
+    content: '';
+    display: block;
+    margin: 24px auto 0;
+    width: 100px;
+    height: 0px;
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transform: rotate(0.1deg);
+}
+.offers p:nth-child(7)::after{
+    border-color: transparent;
+}
+.btn-img{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    background-color: #FF7931;
+    margin-left: 627px;
+    width: 143px;
+    height: 31px;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 27px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn-img::after {
+    position: absolute;
+    top: 15px;
+    right:29px;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/Arrowforward.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+.btn-img:hover{
+    opacity: 0.8;
+}
+.main-footer{
+    width: 1440px;
+    background: #575757;
+    margin-top: 50px;
+    padding-top: 1px;
+    padding-bottom: 46px;
+}
+.main-footer h1{
+    width: 281px;
+    height: 38px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    align-self: center;
+    justify-content:space-between;
+    margin: 32px 134px 41px 135px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    width: 76px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.footer-menu ul li a:hover{
+    color: #FF7931;
+}
+.main-footer ul::after{
+    content: '';
+    display: block;
+    width: 1170px;
+    height: 0px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 46px;
+}
+.footer-social{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.footer-social a{
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: #FFFFFF;
+    margin-right: 14px;
+    box-sizing: border-box;
+}
+.social-btn-ins{
+    display: block;
+    padding-top: 12px;
+    text-align: center;
+}
+.social-btn-face{
+    padding-top: 12.5px;
+    text-align: center;
+}
+.social-btn-twit{
+    padding-top: 14px;
+    text-align: center;
+}
+.social-btn-ins:hover{
+    opacity: 0.8;
+}
+.social-btn-face:hover{
+    opacity: 0.8;
+}
+.social-btn-twit:hover{
+    opacity: 0.8;
+}
